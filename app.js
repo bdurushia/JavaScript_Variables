@@ -31,3 +31,9 @@ let author = "Patrick Rothfuss";
 let pageCount = 722;
 let bookmark = 456;
 let hasRead = true;
+
+console.log(`Name: ${firstName} ${lastName}\nAge: ${age}\n\nLanguage: ${language}\nDate Created: ${createdYear}\nCase Sensitive: ${isCaseSensitive}`);
+
+console.log(`\nClothing Item\nPrice: ${price}\nOn Sale: ${isOnSale}\nSale Precentage: ${salePercentage}\nStock: ${stock}\nIn Stock: ${inStock}\nSize: ${selectedSize}`);
+
+console.log(`\nBOOK\nTitle: ${title}\nAuthor: ${author}\nPage Count: ${pageCount}\nBookmark at page #${bookmark}\n${firstName} has read: ${hasRead}`);
